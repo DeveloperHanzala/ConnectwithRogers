@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Success | Rogers</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ 
+    <style>
+        .flex8{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height:100vh;
+        }
+        .zm{
+  font-size:20px;
+      padding:0% 5%;
+       text-align:center;
+        }
+        .serviceback {
+    background-image: url("../images/Dating-a-truck-driver.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    position: relative; 
+    background-position: center;
+    z-index:-1;
+    padding:0;
+   
+   
+  }
+  
+  .serviceback::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    background-color: #384a68d2;
+    z-index: 0; 
+    padding:0;
+    margin:0;
+  }
+  
+  .text {
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+   
+  
+  }
+  .continue{
+    padding: 10px 20px; background-color: orangered;text-decoration: none;color: black;font-size: 16px;border-radius: 30px;
+  }
+ 
+
+    </style>
+</head>
+<body>
+    <div class="flex8 img serviceback " style="z-index:2000;">
+    <i class="fa-solid fa-circle-check text" style="font-size:120px;color:green;padding-bottom:2%;"></i>
+    <h2 class="text">Thank You For Choosing Us</h2>
+    <p class="zm text" > Your response has been submitted successfully</p>
+     <a href="index.php"  class="text continue" style="z-index:2000;">Continue</a>
+</div>
+</body>
+</html>

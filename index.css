@@ -1,0 +1,253 @@
+p{
+    font-family:"Ted Next Light";
+    font-size:20px;
+}
+
+.bold{
+    font-weight: bold;
+    
+}
+.nav-link{
+    font-weight: bold;
+    color:black;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    background-color: red;
+    border:none;
+    padding:15px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    color:white;
+
+}
+
+
+.shadow1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:8px 10px;
+    border-radius: 10px;
+}
+#logo2width2{
+    width:100%;
+}
+
+@media(max-width:768px){
+  .shadow1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /*padding:8px 10px;*/
+    border-radius: 10px;
+}
+    
+    .button{
+    background-color: red;
+    border:none;
+    padding:8px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    color:white;
+
+}
+
+
+}
+
+.margin_10{
+    margin-top: 10%;
+}
+.align{
+    text-align: center;
+}
+.shadow2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:10% 3%;
+    z-index:2000;
+    margin:5%;
+    border-radius: 10px;
+    height:450px;
+}
+.backred{
+    background-color: red;
+    color:white;
+    padding:5%;
+    border-radius: 10px;
+}
+.backgrey{
+    background-color: rgb(153, 152, 152);
+  
+    padding:5%;
+    border-radius: 10px;
+}
+.grAY{
+    background-color: rgba(211, 208, 208, 0.438);
+    padding:5% 0%;
+}
+.grAY2{
+    background-color: rgba(163, 139, 139, 0.171);
+    padding:5% 0%;
+}
+.text{
+    background-color: white;
+}
+.carousel {
+    position: relative; /* Set the carousel as relative for absolute positioning of controls */
+}
+.leftmrg{
+    margin-left: 10%;
+}
+.red{
+    color:red;
+}
+.shadow3{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* padding:10% 3%; */
+    z-index:2000;
+    margin:5%;
+    height:680px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    /*height:400px;*/
+}
+.shadow3pad{
+    padding:5% 5%;
+   
+}
+.priceh1{
+    font-size: 75px;
+    font-weight:bold;
+}
+.priceh2{
+    font-size: 60px;
+    font-weight:bold;
+}
+
+.pricered{
+    background-color: white;
+    color:red;
+}
+.shadow5{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+    z-index:2000;
+  
+  /*border-radius: 10px;*/
+    height:640px;
+    border-radius:5px;
+}
+.redpad{
+    padding:5%;
+}
+.white{
+    color:white;
+}
+
+.hidden2{
+    display: none;
+}
+/* .................footer */
+.end2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+
+
+.footer-links {
+    display: flex; /* Use flexbox for alignment */
+    gap: 15px; /* Adjust spacing between links as needed */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the inherited text color */
+}
+
+
+
+
+
+#storelocatorwidget {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+
+.storelocator-scrollFix IMG {
+    max-width: 250px;
+}
+
+@media screen and (max-width: 992px) {
+    td#storelocator-infowindow-td-left,
+    td#storelocator-infowindow-td-right {
+        display: table-row;
+    }
+}
+
+#storelocator-search_address {
+    padding: 150px 15px;
+}
+
+
+.samwidth{
+    width:70%;
+   
+}
+.samshadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:5%;
+    height:750px;
+
+}
+
+.conrollerbutton{
+ border: none;
+ background-color: white;
+ border: 1px solid orangered;
+ width:100%;
+ padding:10px 10px;
+
+
+}
+.conrollershadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:650px;
+   
+}
+.paddingcontrol{
+    padding:5%;
+}
+
+@media(max-width:768px){
+    .hidden{
+        display: none;
+    }
+    .hidden2{
+        display: block;
+    }
+    .end{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+   
+    .end2{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+    .col-md-4{
+        margin-top: 5%;
+    }
+}

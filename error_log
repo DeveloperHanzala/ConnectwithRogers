@@ -1,0 +1,27 @@
+[12-Dec-2024 20:25:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/adminrogers/public_html/message.php:169
+Stack trace:
+#0 /home/adminrogers/public_html/message.php(169): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/adminrogers/public_html/message.php on line 169
+[12-Dec-2024 20:25:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/adminrogers/public_html/message.php:169
+Stack trace:
+#0 /home/adminrogers/public_html/message.php(169): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/adminrogers/public_html/message.php on line 169
+[12-Dec-2024 20:25:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/adminrogers/public_html/message.php:169
+Stack trace:
+#0 /home/adminrogers/public_html/message.php(169): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/adminrogers/public_html/message.php on line 169
+[12-Dec-2024 20:26:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'id' doesn't have a default value in /home/adminrogers/public_html/message.php:169
+Stack trace:
+#0 /home/adminrogers/public_html/message.php(169): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/adminrogers/public_html/message.php on line 169
+[13-Dec-2024 17:20:36 UTC] PHP Parse error:  syntax error, unexpected token "--" in /home/adminrogers/public_html/index.php on line 1116
+[13-Dec-2024 17:20:38 UTC] PHP Parse error:  syntax error, unexpected token "--" in /home/adminrogers/public_html/index.php on line 1116
+[20-Dec-2024 20:17:50 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/adminrogers/public_html/message.php on line 191
+[20-Dec-2024 20:18:55 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/adminrogers/public_html/message.php on line 115
+[20-Dec-2024 20:19:19 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/adminrogers/public_html/message.php on line 192
+[20-Dec-2024 20:19:22 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/adminrogers/public_html/message.php on line 192
+[20-Dec-2024 20:19:29 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/adminrogers/public_html/message.php on line 192

@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//YourCompany//NONSGML v1.0//EN
+BEGIN:VEVENT
+SUMMARY:Preferred Service
+LOCATION:airline
+DTSTART:20250106T133100Z
+DTEND:20250106T143100Z
+DESCRIPTION:Service: Preferred Service\nLocation: airline\nDate: 2025-01-06\nTime: 13:31\nName: test test\nEmail: fsdfadf@gmail.com\nPhone: 07441396181
+END:VEVENT
+END:VCALENDAR
